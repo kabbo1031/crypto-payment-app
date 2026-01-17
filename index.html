@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Crypto Payment App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crypto Payment App</h1>
+
+    <button id="connectBtn">Connect Wallet</button>
+    <br><br>
+
+    <input type="text" id="toAddress" placeholder="Receiver address">
+    <br><br>
+
+    <input type="number" id="amount" placeholder="Amount in ETH">
+    <br><br>
+
+    <button id="sendBtn">Send Payment</button>
+
+    <p><strong>Status:</strong> <span id="status">Idle</span></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <script src="config.js"></script>
+    <script src="wallet.js"></script>
+    <script src="payment.js"></script>
+    <script src="ui.js"></script>
+    <script src="utils.js"></script>
+    <script src="logger.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
