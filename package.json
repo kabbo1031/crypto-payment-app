@@ -1,0 +1,7 @@
+{
+  "name": "simple-crypto-payment-app",
+  "version": "1.0.0",
+  "description": "Beginner crypto payment app",
+  "main": "app.js",
+  "license": "MIT"
+}
